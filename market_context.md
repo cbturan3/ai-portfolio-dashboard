@@ -65,7 +65,7 @@ AXS | 3 | 17.5% | 5.8% | AI Finance Labs 3 | +0.4% | -2.1%
 9. Markwayne Mullin: score +0.10, return +4.1%, vs SPY +1.0%, vol +10.8%, maxDD -3.0%, ret/vol 1.57, direction +16.4%
 10. AI Leaders: score -0.04, return +6.4%, vs SPY +3.2%, vol +28.2%, maxDD -8.6%, ret/vol 0.96, direction +22.2%
 11. DeepSeek: score -0.48, return +7.8%, vs SPY +4.6%, vol +26.9%, maxDD -11.8%, ret/vol 1.26, direction +1.4%
-12. Citadel: score -0.53, return +2.6%, vs SPY -0.4%, vol +12.4%, maxDD -4.4%, ret/vol 0.84, direction +6.5%
+12. Citadel: score -0.53, return +2.6%, vs SPY -0.5%, vol +12.4%, maxDD -4.4%, ret/vol 0.84, direction +6.5%
 13. Inverse Cramer: score -1.01, return +1.0%, vs SPY -2.0%, vol +16.3%, maxDD -7.8%, ret/vol 0.24, direction -0.0%
 14. Point72: score -1.33, return -3.4%, vs SPY -6.3%, vol +29.7%, maxDD -13.3%, ret/vol -0.43, direction -0.0%
 15. Ron Wyden: score -1.40, return -1.9%, vs SPY -4.8%, vol +17.1%, maxDD -8.2%, ret/vol -0.42, direction -2.4%
@@ -82,9 +82,53 @@ AXS | 3 | 17.5% | 5.8% | AI Finance Labs 3 | +0.4% | -2.1%
 8. Point72: score -0.19, return +31.0%, vs SPY +11.7%, vol +29.3%, maxDD -15.5%, ret/vol 1.02, direction +34.5%
 9. Grok: score -0.22, return +33.7%, vs SPY +14.0%, vol +27.5%, maxDD -18.9%, ret/vol 1.18, direction +27.7%
 10. Dan Crenshaw: score -0.63, return +21.0%, vs SPY +3.2%, vol +17.5%, maxDD -15.2%, ret/vol 1.15, direction +12.3%
-11. Nancy Pelosi: score -1.50, return +10.4%, vs SPY -5.8%, vol +23.4%, maxDD -22.4%, ret/vol 0.43, direction +3.9%
+11. Nancy Pelosi: score -1.50, return +10.4%, vs SPY -5.9%, vol +23.4%, maxDD -22.4%, ret/vol 0.43, direction +3.9%
 12. Jim Simons: score -1.88, return +2.5%, vs SPY -12.6%, vol +24.4%, maxDD -18.0%, ret/vol 0.10, direction +0.6%
 (excluded, history too short: Claude, Muse, Gemini, Donald Trump, Tristan Thompson, AI Leaders)
+
+## Quality scores (final = 0.6*6M score + 0.4*1Y score, else 6M; each = mean z of return/vol and direction)
+1. Claude: final +1.45 (6M +1.45, 1Y n/a)
+2. Markwayne Mullin: final +1.05 (6M +1.31, 1Y +0.65)
+3. InTheMoney: final +0.80 (6M +0.43, 1Y +1.36)
+4. Citadel: final +0.61 (6M +0.98, 1Y +0.06)
+5. Inverse Cramer: final +0.50 (6M +0.29, 1Y +0.82)
+6. GPT: final +0.49 (6M +0.61, 1Y +0.30)
+7. DeepSeek: final +0.25 (6M -0.21, 1Y +0.94)
+8. Dan Crenshaw: final -0.34 (6M -0.15, 1Y -0.63)
+9. Ron Wyden: final -0.41 (6M -0.86, 1Y +0.27)
+10. Grok: final -0.60 (6M -0.85, 1Y -0.22)
+11. Nancy Pelosi: final -0.68 (6M -0.13, 1Y -1.50)
+12. Jim Simons: final -0.86 (6M -0.18, 1Y -1.88)
+13. Point72: final -0.95 (6M -1.45, 1Y -0.19)
+14. AI Leaders: final -1.24 (6M -1.24, 1Y n/a)
+
+## Smart-money consensus (voters = score>0, vote weight ~ score capped 15%; conviction = sum vote x holding weight; >=2 voters)
+ticker | conviction | holders (score, weight) | sector | 1W | 1M | YTD | recent moves
+---|---|---|---|---|---|---|---
+NVDA | 3.91 | InTheMoney (+0.80, 9.0%), Citadel (+0.61, 7.0%), Claude (+1.45, 5.4%), DeepSeek (+0.25, 7.1%) | Technology | -5.7% | +2.4% | +16.7% | -
+META | 3.21 | InTheMoney (+0.80, 8.5%), Citadel (+0.61, 7.2%), Markwayne Mullin (+1.05, 5.7%) | Communication Services | +2.2% | +10.0% | +11.9% | -
+MU | 2.63 | InTheMoney (+0.80, 11.5%), Claude (+1.45, 6.0%) | Technology | -10.1% | +0.4% | +226.5% | -
+AAPL | 2.62 | Markwayne Mullin (+1.05, 10.0%), Citadel (+0.61, 7.4%) | Technology | +0.5% | +3.2% | +26.1% | -
+MSFT | 2.50 | InTheMoney (+0.80, 9.5%), Citadel (+0.61, 7.1%) | Technology | +3.2% | +8.5% | +12.2% | -
+VLO | 2.35 | Markwayne Mullin (+1.05, 12.1%), InTheMoney (+0.80, 3.6%) | Energy | +0.1% | +11.8% | +176.8% | -
+INTU | 2.23 | GPT (+0.49, 10.0%), DeepSeek (+0.25, 7.3%) | Technology | +8.7% | +0.7% | -49.5% | -
+TSLA | 2.05 | Citadel (+0.61, 6.9%), Inverse Cramer (+0.50, 6.8%) | Consumer Cyclical | -3.3% | +1.6% | -19.4% | -
+GOOGL | 2.02 | InTheMoney (+0.80, 8.5%), Citadel (+0.61, 5.1%) | Communication Services | +0.3% | +1.2% | +11.8% | -
+PHVS | 1.89 | Claude (+1.45, 6.9%), GPT (+0.49, 3.7%), DeepSeek (+0.25, 3.0%) | Healthcare | -4.8% | -22.1% | +6.8% | -
+BSX | 1.88 | GPT (+0.49, 8.7%), DeepSeek (+0.25, 5.8%) | Healthcare | +5.0% | +0.6% | -53.7% | -
+APP | 1.79 | Inverse Cramer (+0.50, 6.9%), Claude (+1.45, 5.1%) | Communication Services | -0.3% | -15.7% | -58.6% | -
+AVGO | 1.75 | InTheMoney (+0.80, 5.5%), DeepSeek (+0.25, 5.5%), Citadel (+0.61, 2.5%) | Technology | -4.4% | +1.7% | +0.0% | -
+LRCX | 1.74 | Markwayne Mullin (+1.05, 6.3%), InTheMoney (+0.80, 5.3%) | Technology | -13.5% | +2.5% | +62.6% | -
+DVN | 1.71 | GPT (+0.49, 6.1%), Claude (+1.45, 5.3%) | Energy | +0.7% | -4.1% | +37.0% | -
+
+## Avoid list (held by 2+ weak portfolios (score<0), held by no strong portfolio)
+- INTC conviction 2.46: Nancy Pelosi (-0.68, 8.3%), Jim Simons (-0.86, 8.1%); 1M -1.8%, YTD +158.5%
+- CRWD conviction 2.30: Nancy Pelosi (-0.68, 9.9%), Jim Simons (-0.86, 5.5%); 1M +0.9%, YTD +108.7%
+- STX conviction 1.38: Point72 (-0.95, 5.3%), Ron Wyden (-0.41, 4.3%); 1M -10.4%, YTD +151.7%
+
+## Consensus forward tracking (return since list date vs SPY)
+- 2026-10-16: pending (no price data after list date yet)
+Not backtested; information only, not investment advice.
 
 ## Theme / sector tilt (equal-weight per portfolio)
 - AI Finance Labs themes: Other 27.5%, Biotech/Pharma 18.4%, Software/Internet 12.2%, Energy/Power 10.9%, Financials 8.5%, AI/Semis 8.1%, Cash/T-bills 5.9%, Metals/Mining 5.8%, Defense/Aerospace 2.6%
