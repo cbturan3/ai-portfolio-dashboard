@@ -77,36 +77,36 @@ BOXX | 2 | 37.9% | 18.9% | AI Finance Labs 2 | +0.1% | +0.4%
 (Compared: 18 portfolios; no baseline yet: none. Weight changes >=1pp only where previous snapshot stored weights.)
 
 ## Performance ranks 3M (2026-07-30 to 2026-10-29); score = avg z of return/vol and direction (trend growth x R2)
-1. Dan Crenshaw: score +1.75, return +7.5%, vs SPY +3.4%, vol +12.4%, maxDD -5.2%, ret/vol 2.67, direction +20.9%
-2. Grok: score +1.57, return +21.6%, vs SPY +17.0%, vol +26.0%, maxDD -7.1%, ret/vol 4.36, direction +7.5%
-3. Claude: score +0.46, return +8.7%, vs SPY +4.5%, vol +13.7%, maxDD -7.6%, ret/vol 2.77, direction -0.1%
-4. GPT: score +0.42, return +11.4%, vs SPY +7.1%, vol +19.7%, maxDD -9.2%, ret/vol 2.64, direction +0.1%
-5. Nancy Pelosi: score +0.36, return +9.0%, vs SPY +4.8%, vol +27.7%, maxDD -12.2%, ret/vol 1.42, direction +6.6%
-6. Jim Simons: score +0.25, return +4.7%, vs SPY +0.7%, vol +24.7%, maxDD -8.1%, ret/vol 0.79, direction +8.8%
-7. Donald Trump: score +0.23, return +7.7%, vs SPY +3.5%, vol +16.5%, maxDD -5.2%, ret/vol 2.01, direction +0.8%
-8. InTheMoney: score +0.04, return +5.8%, vs SPY +1.7%, vol +27.1%, maxDD -13.7%, ret/vol 0.90, direction +4.7%
-9. DeepSeek: score -0.16, return +8.0%, vs SPY +3.9%, vol +23.4%, maxDD -11.8%, ret/vol 1.49, direction -2.1%
-10. Citadel: score -0.23, return +2.6%, vs SPY -1.3%, vol +10.9%, maxDD -4.9%, ret/vol 0.98, direction +0.0%
-11. Markwayne Mullin: score -0.46, return +1.1%, vs SPY -2.8%, vol +11.4%, maxDD -6.5%, ret/vol 0.38, direction +0.1%
-12. AI Leaders: score -0.60, return +0.2%, vs SPY -3.6%, vol +31.0%, maxDD -15.9%, ret/vol 0.03, direction -0.0%
-13. Inverse Cramer: score -0.80, return +0.7%, vs SPY -3.2%, vol +15.3%, maxDD -7.8%, ret/vol 0.17, direction -4.0%
-14. Point72: score -1.11, return -1.0%, vs SPY -4.8%, vol +28.0%, maxDD -15.7%, ret/vol -0.14, direction -7.0%
-15. Ron Wyden: score -1.73, return -0.9%, vs SPY -4.7%, vol +13.5%, maxDD -8.9%, ret/vol -0.25, direction -16.1%
+1. Dan Crenshaw: score +1.75, return +7.5%, vs SPY +5.6%, vol +12.4%, maxDD -5.2%, ret/vol 2.67, direction +20.9%
+2. Grok: score +1.57, return +21.6%, vs SPY +19.4%, vol +26.0%, maxDD -7.1%, ret/vol 4.36, direction +7.5%
+3. Claude: score +0.46, return +8.7%, vs SPY +6.7%, vol +13.7%, maxDD -7.6%, ret/vol 2.77, direction -0.1%
+4. GPT: score +0.42, return +11.4%, vs SPY +9.3%, vol +19.7%, maxDD -9.2%, ret/vol 2.64, direction +0.1%
+5. Nancy Pelosi: score +0.36, return +9.0%, vs SPY +7.0%, vol +27.7%, maxDD -12.2%, ret/vol 1.42, direction +6.6%
+6. Jim Simons: score +0.25, return +4.7%, vs SPY +2.8%, vol +24.7%, maxDD -8.1%, ret/vol 0.79, direction +8.8%
+7. Donald Trump: score +0.23, return +7.7%, vs SPY +5.7%, vol +16.5%, maxDD -5.2%, ret/vol 2.01, direction +0.8%
+8. InTheMoney: score +0.04, return +5.8%, vs SPY +3.9%, vol +27.1%, maxDD -13.7%, ret/vol 0.90, direction +4.7%
+9. DeepSeek: score -0.16, return +8.0%, vs SPY +6.0%, vol +23.4%, maxDD -11.8%, ret/vol 1.49, direction -2.1%
+10. Citadel: score -0.23, return +2.6%, vs SPY +0.7%, vol +10.9%, maxDD -4.9%, ret/vol 0.98, direction +0.0%
+11. Markwayne Mullin: score -0.46, return +1.1%, vs SPY -0.7%, vol +11.4%, maxDD -6.5%, ret/vol 0.38, direction +0.1%
+12. AI Leaders: score -0.60, return +0.2%, vs SPY -1.6%, vol +31.0%, maxDD -15.9%, ret/vol 0.03, direction -0.0%
+13. Inverse Cramer: score -0.80, return +0.7%, vs SPY -1.2%, vol +15.3%, maxDD -7.8%, ret/vol 0.17, direction -4.0%
+14. Point72: score -1.11, return -1.0%, vs SPY -2.9%, vol +28.0%, maxDD -15.7%, ret/vol -0.14, direction -7.0%
+15. Ron Wyden: score -1.73, return -0.9%, vs SPY -2.7%, vol +13.5%, maxDD -8.9%, ret/vol -0.25, direction -16.1%
 (excluded, history too short: Muse, Gemini, Tristan Thompson)
 
 ## Performance ranks 1Y (2025-10-29 to 2026-10-29); score = avg z of return/vol and direction (trend growth x R2)
-1. DeepSeek: score +1.22, return +45.2%, vs SPY +28.3%, vol +26.1%, maxDD -13.5%, ret/vol 1.66, direction +48.1%
-2. InTheMoney: score +1.14, return +41.8%, vs SPY +25.3%, vol +35.8%, maxDD -21.1%, ret/vol 1.12, direction +62.6%
-3. Inverse Cramer: score +0.90, return +34.9%, vs SPY +19.3%, vol +24.0%, maxDD -12.2%, ret/vol 1.40, direction +45.7%
-4. GPT: score +0.56, return +31.7%, vs SPY +16.4%, vol +19.2%, maxDD -9.4%, ret/vol 1.58, direction +28.4%
-5. Citadel: score +0.22, return +19.8%, vs SPY +5.9%, vol +13.1%, maxDD -10.3%, ret/vol 1.46, direction +21.0%
-6. Grok: score +0.08, return +30.7%, vs SPY +15.5%, vol +27.2%, maxDD -19.1%, ret/vol 1.08, direction +28.1%
-7. Ron Wyden: score +0.06, return +20.2%, vs SPY +6.2%, vol +20.0%, maxDD -12.3%, ret/vol 0.98, direction +31.1%
-8. Markwayne Mullin: score +0.03, return +18.5%, vs SPY +4.7%, vol +16.3%, maxDD -8.7%, ret/vol 1.09, direction +26.5%
-9. Point72: score -0.29, return +20.4%, vs SPY +6.4%, vol +29.9%, maxDD -15.9%, ret/vol 0.66, direction +29.4%
-10. Dan Crenshaw: score -0.55, return +15.6%, vs SPY +2.2%, vol +17.3%, maxDD -15.2%, ret/vol 0.87, direction +13.9%
-11. Nancy Pelosi: score -1.52, return +2.5%, vs SPY -9.4%, vol +24.1%, maxDD -21.6%, ret/vol 0.10, direction +5.9%
-12. Jim Simons: score -1.85, return -2.8%, vs SPY -14.1%, vol +24.5%, maxDD -18.0%, ret/vol -0.11, direction +1.4%
+1. DeepSeek: score +1.22, return +45.2%, vs SPY +31.0%, vol +26.1%, maxDD -13.5%, ret/vol 1.66, direction +48.1%
+2. InTheMoney: score +1.14, return +41.8%, vs SPY +28.0%, vol +35.8%, maxDD -21.1%, ret/vol 1.12, direction +62.6%
+3. Inverse Cramer: score +0.90, return +34.9%, vs SPY +21.8%, vol +24.0%, maxDD -12.2%, ret/vol 1.40, direction +45.7%
+4. GPT: score +0.56, return +31.7%, vs SPY +18.9%, vol +19.2%, maxDD -9.4%, ret/vol 1.58, direction +28.4%
+5. Citadel: score +0.22, return +19.8%, vs SPY +8.1%, vol +13.1%, maxDD -10.3%, ret/vol 1.46, direction +21.0%
+6. Grok: score +0.08, return +30.7%, vs SPY +17.9%, vol +27.2%, maxDD -19.1%, ret/vol 1.08, direction +28.1%
+7. Ron Wyden: score +0.06, return +20.2%, vs SPY +8.4%, vol +20.0%, maxDD -12.3%, ret/vol 0.98, direction +31.1%
+8. Markwayne Mullin: score +0.03, return +18.5%, vs SPY +6.9%, vol +16.3%, maxDD -8.7%, ret/vol 1.09, direction +26.5%
+9. Point72: score -0.29, return +20.4%, vs SPY +8.6%, vol +29.9%, maxDD -15.9%, ret/vol 0.66, direction +29.4%
+10. Dan Crenshaw: score -0.55, return +15.6%, vs SPY +4.3%, vol +17.3%, maxDD -15.2%, ret/vol 0.87, direction +13.9%
+11. Nancy Pelosi: score -1.52, return +2.5%, vs SPY -7.5%, vol +24.1%, maxDD -21.6%, ret/vol 0.10, direction +5.9%
+12. Jim Simons: score -1.85, return -2.8%, vs SPY -12.3%, vol +24.5%, maxDD -18.0%, ret/vol -0.11, direction +1.4%
 (excluded, history too short: Claude, Muse, Gemini, Donald Trump, Tristan Thompson, AI Leaders)
 
 ## Quality scores (final = 0.6*6M score + 0.4*1Y score, else 6M; each = mean z of return/vol and direction)
@@ -150,15 +150,15 @@ APP | 1.49 | Inverse Cramer (+0.33, 6.3%), Claude (+2.29, 4.5%) | Communication 
 - STX conviction 1.96: Ron Wyden (-0.57, 8.7%), Point72 (-0.82, 5.4%); 1M -23.3%, YTD +155.2%
 
 ## Consensus forward tracking (return since list date vs SPY)
-- 2026-10-16: equal-weight +0.0%, conviction-weight -0.4%, SPY +0.8%
-- 2026-10-19: equal-weight -1.3%, conviction-weight -1.7%, SPY +0.4%
-- 2026-10-20: equal-weight -0.6%, conviction-weight -0.8%, SPY +0.0%
-- 2026-10-21: equal-weight +0.1%, conviction-weight -0.3%, SPY -0.5%
-- 2026-10-22: equal-weight +1.4%, conviction-weight +1.2%, SPY +0.7%
-- 2026-10-23: equal-weight +1.3%, conviction-weight +0.9%, SPY +1.2%
-- 2026-10-27: equal-weight +0.3%, conviction-weight +0.2%, SPY -0.0%
-- 2026-10-28: equal-weight -0.6%, conviction-weight -0.4%, SPY -0.4%
-- 2026-10-29: pending (no price data after list date yet)
+- 2026-10-16: equal-weight +0.0%, conviction-weight -0.4%, SPY -1.3%
+- 2026-10-19: equal-weight -1.3%, conviction-weight -1.7%, SPY -1.7%
+- 2026-10-20: equal-weight -0.6%, conviction-weight -0.8%, SPY -2.0%
+- 2026-10-21: equal-weight +0.1%, conviction-weight -0.3%, SPY -2.5%
+- 2026-10-22: equal-weight +1.4%, conviction-weight +1.2%, SPY -1.3%
+- 2026-10-23: equal-weight +1.3%, conviction-weight +0.9%, SPY -0.8%
+- 2026-10-27: equal-weight +0.3%, conviction-weight +0.2%, SPY -2.1%
+- 2026-10-28: equal-weight -0.6%, conviction-weight -0.4%, SPY -2.4%
+- 2026-10-29: equal-weight +0.0%, conviction-weight +0.0%, SPY -2.0%
 - 2026-10-30: pending (no price data after list date yet)
 Not backtested; information only, not investment advice.
 
