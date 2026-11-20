@@ -31,62 +31,62 @@ Last Autopilot fetch (2026-11-19T17:50 UTC) failed for: Grok, Claude, GPT, Muse,
 ## Consensus tickers (held by 2+ portfolios)
 ticker | #portfolios | sum weight | avg weight | sections | 1W | 1M
 ---|---|---|---|---|---|---
-NVDA | 11 | 85.3% | 7.8% | AI Finance Labs 4, Congress 3, Influencers 4 | -10.2% | -31.0%
-AMZN | 9 | 64.1% | 7.1% | Congress 4, Influencers 5 | -1.6% | +0.2%
-AVGO | 7 | 43.9% | 6.3% | AI Finance Labs 1, Congress 2, Influencers 4 | -3.5% | +5.2%
-AAPL | 6 | 52.2% | 8.7% | Congress 5, Influencers 1 | -1.5% | +3.1%
-META | 6 | 39.8% | 6.6% | Congress 3, Influencers 3 | -2.4% | -12.3%
-GOOGL | 6 | 38.6% | 6.4% | Congress 3, Influencers 3 | -5.4% | -16.9%
-MSFT | 5 | 35.4% | 7.1% | Congress 3, Influencers 2 | -2.8% | -4.4%
-MU | 4 | 31.5% | 7.9% | AI Finance Labs 1, Influencers 3 | -12.5% | -22.0%
-VST | 4 | 25.0% | 6.3% | AI Finance Labs 1, Congress 1, Influencers 2 | -7.1% | -16.9%
-RTX | 4 | 22.6% | 5.6% | Congress 1, Influencers 3 | -0.9% | +1.7%
-GOOG | 4 | 20.7% | 5.2% | AI Finance Labs 1, Congress 1, Influencers 2 | -5.2% | -16.8%
-NRG | 4 | 20.1% | 5.0% | AI Finance Labs 4 | -3.6% | -2.9%
-AMD | 3 | 21.4% | 7.1% | Influencers 3 | -17.0% | -9.2%
-TSLA | 3 | 20.5% | 6.8% | Congress 1, Influencers 2 | -4.7% | +1.3%
-TSM | 3 | 20.0% | 6.7% | Influencers 3 | -12.2% | -16.2%
-PINS | 3 | 19.4% | 6.5% | AI Finance Labs 3 | -10.1% | -25.2%
-BCRX | 3 | 18.2% | 6.1% | AI Finance Labs 3 | -4.6% | -7.7%
-LRCX | 3 | 17.1% | 5.7% | Congress 1, Influencers 2 | -11.3% | -21.3%
-PAM | 3 | 15.6% | 5.2% | AI Finance Labs 3 | -0.5% | -19.4%
-GS | 3 | 10.4% | 3.5% | Congress 1, Influencers 2 | -6.3% | -3.2%
+NVDA | 11 | 85.3% | 7.8% | AI Finance Labs 4, Congress 3, Influencers 4 | -16.7% | -38.9%
+AMZN | 9 | 64.1% | 7.1% | Congress 4, Influencers 5 | -6.3% | -4.8%
+AVGO | 7 | 43.9% | 6.3% | AI Finance Labs 1, Congress 2, Influencers 4 | -11.6% | -9.2%
+AAPL | 6 | 52.2% | 8.7% | Congress 5, Influencers 1 | -3.2% | +0.3%
+META | 6 | 39.8% | 6.6% | Congress 3, Influencers 3 | -11.7% | -18.7%
+GOOGL | 6 | 38.6% | 6.4% | Congress 3, Influencers 3 | -7.9% | -18.6%
+MSFT | 5 | 35.4% | 7.1% | Congress 3, Influencers 2 | -6.5% | -8.1%
+MU | 4 | 31.5% | 7.9% | AI Finance Labs 1, Influencers 3 | -22.8% | -34.2%
+VST | 4 | 25.0% | 6.3% | AI Finance Labs 1, Congress 1, Influencers 2 | -11.8% | -24.9%
+RTX | 4 | 22.6% | 5.6% | Congress 1, Influencers 3 | -3.0% | +0.6%
+GOOG | 4 | 20.7% | 5.2% | AI Finance Labs 1, Congress 1, Influencers 2 | -7.6% | -18.3%
+NRG | 4 | 20.1% | 5.0% | AI Finance Labs 4 | -7.4% | -9.4%
+AMD | 3 | 21.4% | 7.1% | Influencers 3 | -18.7% | -21.5%
+TSLA | 3 | 20.5% | 6.8% | Congress 1, Influencers 2 | -10.1% | -9.2%
+TSM | 3 | 20.0% | 6.7% | Influencers 3 | -19.0% | -25.2%
+PINS | 3 | 19.4% | 6.5% | AI Finance Labs 3 | -12.7% | -27.1%
+BCRX | 3 | 18.2% | 6.1% | AI Finance Labs 3 | -4.5% | -6.3%
+LRCX | 3 | 17.1% | 5.7% | Congress 1, Influencers 2 | -17.8% | -28.8%
+PAM | 3 | 15.6% | 5.2% | AI Finance Labs 3 | -5.1% | -20.5%
+GS | 3 | 10.4% | 3.5% | Congress 1, Influencers 2 | -12.8% | -11.7%
 
 ## Recent moves vs previous snapshot
 - GUSH: cut by 1 (cut: Dan Crenshaw)
 (Compared: 18 portfolios; no baseline yet: none. Weight changes >=1pp only where previous snapshot stored weights.)
 
 ## Performance ranks 3M (2026-08-03 to 2026-11-02); score = avg z of return/vol and direction (trend growth x R2)
-1. Grok: score +1.47, return +19.2%, vs SPY +24.8%, vol +26.3%, maxDD -7.1%, ret/vol 3.71, direction +1.1%
-2. Dan Crenshaw: score +1.43, return +3.1%, vs SPY +8.0%, vol +13.2%, maxDD -5.2%, ret/vol 0.97, direction +16.9%
-3. GPT: score +0.96, return +10.5%, vs SPY +15.6%, vol +19.3%, maxDD -9.2%, ret/vol 2.44, direction +0.0%
-4. Citadel: score +0.30, return +1.6%, vs SPY +6.4%, vol +10.9%, maxDD -4.9%, ret/vol 0.59, direction -0.1%
-5. Jim Simons: score +0.22, return +0.8%, vs SPY +5.5%, vol +25.0%, maxDD -13.0%, ret/vol 0.13, direction +1.3%
-6. Claude: score +0.19, return +1.8%, vs SPY +6.6%, vol +13.3%, maxDD -7.6%, ret/vol 0.55, direction -1.8%
-7. Donald Trump: score +0.14, return +0.4%, vs SPY +5.1%, vol +15.3%, maxDD -5.2%, ret/vol 0.10, direction +0.1%
-8. Markwayne Mullin: score +0.08, return -0.2%, vs SPY +4.5%, vol +11.7%, maxDD -6.5%, ret/vol -0.07, direction +0.0%
-9. Nancy Pelosi: score -0.05, return -4.8%, vs SPY -0.3%, vol +28.9%, maxDD -15.6%, ret/vol -0.60, direction +1.0%
-10. InTheMoney: score -0.09, return -5.1%, vs SPY -0.7%, vol +28.7%, maxDD -16.7%, ret/vol -0.64, direction +0.6%
-11. AI Leaders: score -0.37, return -18.1%, vs SPY -14.2%, vol +41.1%, maxDD -25.8%, ret/vol -1.31, direction -0.3%
-12. DeepSeek: score -0.45, return -59.6%, vs SPY -57.7%, vol +184.6%, maxDD -65.4%, ret/vol -0.53, direction -6.3%
-13. Inverse Cramer: score -0.70, return -4.4%, vs SPY +0.0%, vol +14.9%, maxDD -8.3%, ret/vol -1.09, direction -7.1%
-14. Point72: score -1.09, return -12.1%, vs SPY -8.0%, vol +29.4%, maxDD -17.9%, ret/vol -1.34, direction -12.4%
-15. Ron Wyden: score -2.02, return -7.8%, vs SPY -3.5%, vol +14.7%, maxDD -11.4%, ret/vol -1.87, direction -24.9%
+1. Grok: score +1.47, return +19.2%, vs SPY +28.7%, vol +26.3%, maxDD -7.1%, ret/vol 3.71, direction +1.1%
+2. Dan Crenshaw: score +1.43, return +3.1%, vs SPY +11.4%, vol +13.2%, maxDD -5.2%, ret/vol 0.97, direction +16.9%
+3. GPT: score +0.96, return +10.5%, vs SPY +19.3%, vol +19.3%, maxDD -9.2%, ret/vol 2.44, direction +0.0%
+4. Citadel: score +0.30, return +1.6%, vs SPY +9.7%, vol +10.9%, maxDD -4.9%, ret/vol 0.59, direction -0.1%
+5. Jim Simons: score +0.22, return +0.8%, vs SPY +8.8%, vol +25.0%, maxDD -13.0%, ret/vol 0.13, direction +1.3%
+6. Claude: score +0.19, return +1.8%, vs SPY +10.0%, vol +13.3%, maxDD -7.6%, ret/vol 0.55, direction -1.8%
+7. Donald Trump: score +0.14, return +0.4%, vs SPY +8.4%, vol +15.3%, maxDD -5.2%, ret/vol 0.10, direction +0.1%
+8. Markwayne Mullin: score +0.08, return -0.2%, vs SPY +7.7%, vol +11.7%, maxDD -6.5%, ret/vol -0.07, direction +0.0%
+9. Nancy Pelosi: score -0.05, return -4.8%, vs SPY +2.8%, vol +28.9%, maxDD -15.6%, ret/vol -0.60, direction +1.0%
+10. InTheMoney: score -0.09, return -5.1%, vs SPY +2.5%, vol +28.7%, maxDD -16.7%, ret/vol -0.64, direction +0.6%
+11. AI Leaders: score -0.37, return -18.1%, vs SPY -11.5%, vol +41.1%, maxDD -25.8%, ret/vol -1.31, direction -0.3%
+12. DeepSeek: score -0.45, return -59.6%, vs SPY -56.4%, vol +184.6%, maxDD -65.4%, ret/vol -0.53, direction -6.3%
+13. Inverse Cramer: score -0.70, return -4.4%, vs SPY +3.2%, vol +14.9%, maxDD -8.3%, ret/vol -1.09, direction -7.1%
+14. Point72: score -1.09, return -12.1%, vs SPY -5.1%, vol +29.4%, maxDD -17.9%, ret/vol -1.34, direction -12.4%
+15. Ron Wyden: score -2.02, return -7.8%, vs SPY -0.5%, vol +14.7%, maxDD -11.4%, ret/vol -1.87, direction -24.9%
 (excluded, history too short: Muse, Gemini, Tristan Thompson)
 
 ## Performance ranks 1Y (2025-11-02 to 2026-11-02); score = avg z of return/vol and direction (trend growth x R2)
-1. InTheMoney: score +1.23, return +34.0%, vs SPY +25.2%, vol +36.2%, maxDD -21.1%, ret/vol 0.91, direction +61.9%
-2. Inverse Cramer: score +0.98, return +32.2%, vs SPY +23.6%, vol +24.0%, maxDD -12.2%, ret/vol 1.30, direction +45.4%
-3. GPT: score +0.71, return +33.1%, vs SPY +24.4%, vol +19.3%, maxDD -9.4%, ret/vol 1.65, direction +28.6%
-4. Citadel: score +0.40, return +21.4%, vs SPY +13.4%, vol +13.1%, maxDD -10.3%, ret/vol 1.57, direction +20.8%
-5. Grok: score +0.32, return +32.3%, vs SPY +23.6%, vol +27.4%, maxDD -19.1%, ret/vol 1.14, direction +28.2%
-6. Markwayne Mullin: score +0.23, return +18.4%, vs SPY +10.6%, vol +16.3%, maxDD -8.7%, ret/vol 1.09, direction +26.6%
-7. Ron Wyden: score +0.22, return +19.6%, vs SPY +11.8%, vol +20.4%, maxDD -12.5%, ret/vol 0.94, direction +29.7%
-8. Point72: score -0.25, return +10.8%, vs SPY +3.6%, vol +30.0%, maxDD -18.1%, ret/vol 0.35, direction +28.4%
-9. Dan Crenshaw: score -0.29, return +16.1%, vs SPY +8.5%, vol +17.1%, maxDD -15.2%, ret/vol 0.91, direction +14.3%
-10. DeepSeek: score -0.63, return -45.7%, vs SPY -49.2%, vol +95.8%, maxDD -65.4%, ret/vol -0.47, direction +35.0%
-11. Nancy Pelosi: score -1.38, return -5.3%, vs SPY -11.5%, vol +24.9%, maxDD -22.3%, ret/vol -0.21, direction +5.8%
-12. Jim Simons: score -1.54, return -6.2%, vs SPY -12.3%, vol +24.7%, maxDD -18.0%, ret/vol -0.24, direction +1.5%
+1. InTheMoney: score +1.23, return +34.0%, vs SPY +29.2%, vol +36.2%, maxDD -21.1%, ret/vol 0.91, direction +61.9%
+2. Inverse Cramer: score +0.98, return +32.2%, vs SPY +27.5%, vol +24.0%, maxDD -12.2%, ret/vol 1.30, direction +45.4%
+3. GPT: score +0.71, return +33.1%, vs SPY +28.3%, vol +19.3%, maxDD -9.4%, ret/vol 1.65, direction +28.6%
+4. Citadel: score +0.40, return +21.4%, vs SPY +17.0%, vol +13.1%, maxDD -10.3%, ret/vol 1.57, direction +20.8%
+5. Grok: score +0.32, return +32.3%, vs SPY +27.5%, vol +27.4%, maxDD -19.1%, ret/vol 1.14, direction +28.2%
+6. Markwayne Mullin: score +0.23, return +18.4%, vs SPY +14.1%, vol +16.3%, maxDD -8.7%, ret/vol 1.09, direction +26.6%
+7. Ron Wyden: score +0.22, return +19.6%, vs SPY +15.3%, vol +20.4%, maxDD -12.5%, ret/vol 0.94, direction +29.7%
+8. Point72: score -0.25, return +10.8%, vs SPY +6.8%, vol +30.0%, maxDD -18.1%, ret/vol 0.35, direction +28.4%
+9. Dan Crenshaw: score -0.29, return +16.1%, vs SPY +11.9%, vol +17.1%, maxDD -15.2%, ret/vol 0.91, direction +14.3%
+10. DeepSeek: score -0.63, return -45.7%, vs SPY -47.6%, vol +95.8%, maxDD -65.4%, ret/vol -0.47, direction +35.0%
+11. Nancy Pelosi: score -1.38, return -5.3%, vs SPY -8.8%, vol +24.9%, maxDD -22.3%, ret/vol -0.21, direction +5.8%
+12. Jim Simons: score -1.54, return -6.2%, vs SPY -9.6%, vol +24.7%, maxDD -18.0%, ret/vol -0.24, direction +1.5%
 (excluded, history too short: Claude, Muse, Gemini, Donald Trump, Tristan Thompson, AI Leaders)
 
 ## Quality scores (final = 0.6*6M score + 0.4*1Y score, else 6M; each = mean z of return/vol and direction)
@@ -108,40 +108,40 @@ GS | 3 | 10.4% | 3.5% | Congress 1, Influencers 2 | -6.3% | -3.2%
 ## Smart-money consensus (voters = score>0, vote weight ~ score capped 15%; conviction = sum vote x holding weight; >=2 voters)
 ticker | conviction | holders (score, weight) | sector | 1W | 1M | YTD | recent moves
 ---|---|---|---|---|---|---|---
-NVDA | 3.32 | Citadel (+0.89, 6.8%), InTheMoney (+0.20, 9.3%), Claude (+1.87, 5.1%), Grok (+0.36, 4.6%) | Technology | -10.2% | -31.0% | -19.7% | -
-SPY | 2.82 | Citadel (+0.89, 18.2%), Dan Crenshaw (+0.02, 8.9%) | Large Blend | -4.5% | -6.0% | +6.8% | -
-AAPL | 2.80 | Markwayne Mullin (+0.55, 10.5%), Citadel (+0.89, 7.8%), Dan Crenshaw (+0.02, 5.2%) | Technology | -1.5% | +3.1% | +29.1% | -
-BSX | 2.44 | GPT (+0.89, 8.6%), Grok (+0.36, 7.7%) | Healthcare | -2.0% | -5.0% | -54.6% | -
-TSLA | 2.26 | Citadel (+0.89, 7.7%), Inverse Cramer (+0.33, 7.5%) | Consumer Cyclical | -4.7% | +1.3% | -15.8% | -
-RTX | 2.25 | Inverse Cramer (+0.33, 7.5%), Markwayne Mullin (+0.55, 5.1%), InTheMoney (+0.20, 4.1%) | Industrials | -0.9% | +1.7% | +8.4% | -
-META | 2.15 | Citadel (+0.89, 6.3%), Markwayne Mullin (+0.55, 4.9%), InTheMoney (+0.20, 4.0%), Dan Crenshaw (+0.02, 9.2%) | Communication Services | -2.4% | -12.3% | -7.6% | -
-MSFT | 1.97 | Citadel (+0.89, 7.1%), InTheMoney (+0.20, 10.0%) | Technology | -2.8% | -4.4% | +5.8% | -
-PINS | 1.88 | Grok (+0.36, 7.2%), GPT (+0.89, 5.3%) | Communication Services | -10.1% | -25.2% | -33.6% | -
-PHVS | 1.79 | Claude (+1.87, 7.9%), GPT (+0.89, 4.1%) | Healthcare | -6.6% | +2.3% | +13.9% | -
-MU | 1.62 | Claude (+1.87, 5.5%), InTheMoney (+0.20, 8.7%) | Technology | -12.5% | -22.0% | +144.9% | -
-NBIX | 1.62 | GPT (+0.89, 6.9%), Claude (+1.87, 3.9%) | Healthcare | -7.0% | +11.0% | +11.1% | -
-NRG | 1.61 | Grok (+0.36, 7.6%), GPT (+0.89, 3.1%) | Utilities | -3.6% | -2.9% | -39.8% | -
-APP | 1.49 | Inverse Cramer (+0.33, 5.8%), Claude (+1.87, 4.2%) | Communication Services | -1.5% | +42.3% | -42.5% | -
-AMZN | 1.43 | Citadel (+0.89, 6.4%), InTheMoney (+0.20, 4.5%), Dan Crenshaw (+0.02, 5.1%) | Consumer Cyclical | -1.6% | +0.2% | +14.0% | -
+NVDA | 3.32 | Citadel (+0.89, 6.8%), InTheMoney (+0.20, 9.3%), Claude (+1.87, 5.1%), Grok (+0.36, 4.6%) | Technology | -16.7% | -38.9% | -27.1% | -
+SPY | 2.82 | Citadel (+0.89, 18.2%), Dan Crenshaw (+0.02, 8.9%) | Large Blend | -7.3% | -9.5% | +3.4% | -
+AAPL | 2.80 | Markwayne Mullin (+0.55, 10.5%), Citadel (+0.89, 7.8%), Dan Crenshaw (+0.02, 5.2%) | Technology | -3.2% | +0.3% | +27.3% | -
+BSX | 2.44 | GPT (+0.89, 8.6%), Grok (+0.36, 7.7%) | Healthcare | -3.9% | -4.2% | -55.3% | -
+TSLA | 2.26 | Citadel (+0.89, 7.7%), Inverse Cramer (+0.33, 7.5%) | Consumer Cyclical | -10.1% | -9.2% | -22.0% | -
+RTX | 2.25 | Inverse Cramer (+0.33, 7.5%), Markwayne Mullin (+0.55, 5.1%), InTheMoney (+0.20, 4.1%) | Industrials | -3.0% | +0.6% | +6.2% | -
+META | 2.15 | Citadel (+0.89, 6.3%), Markwayne Mullin (+0.55, 4.9%), InTheMoney (+0.20, 4.0%), Dan Crenshaw (+0.02, 9.2%) | Communication Services | -11.7% | -18.7% | -13.9% | -
+MSFT | 1.97 | Citadel (+0.89, 7.1%), InTheMoney (+0.20, 10.0%) | Technology | -6.5% | -8.1% | +1.9% | -
+PINS | 1.88 | Grok (+0.36, 7.2%), GPT (+0.89, 5.3%) | Communication Services | -12.7% | -27.1% | -35.4% | -
+PHVS | 1.79 | Claude (+1.87, 7.9%), GPT (+0.89, 4.1%) | Healthcare | -5.4% | +3.0% | +13.8% | -
+MU | 1.62 | Claude (+1.87, 5.5%), InTheMoney (+0.20, 8.7%) | Technology | -22.8% | -34.2% | +110.6% | -
+NBIX | 1.62 | GPT (+0.89, 6.9%), Claude (+1.87, 3.9%) | Healthcare | -8.2% | +8.7% | +8.3% | -
+NRG | 1.61 | Grok (+0.36, 7.6%), GPT (+0.89, 3.1%) | Utilities | -7.4% | -9.4% | -42.7% | -
+APP | 1.49 | Inverse Cramer (+0.33, 5.8%), Claude (+1.87, 4.2%) | Communication Services | -13.5% | +32.1% | -47.5% | -
+AMZN | 1.43 | Citadel (+0.89, 6.4%), InTheMoney (+0.20, 4.5%), Dan Crenshaw (+0.02, 5.1%) | Consumer Cyclical | -6.3% | -4.8% | +8.2% | -
 
 ## Avoid list (held by 2+ weak portfolios (score<0), held by no strong portfolio)
-- CRWD conviction 2.70: Nancy Pelosi (-0.79, 10.6%), Jim Simons (-0.78, 6.0%); 1M +8.8%, YTD +111.1%
-- INTC conviction 1.85: Nancy Pelosi (-0.79, 5.8%), Jim Simons (-0.78, 5.7%); 1M -38.4%, YTD +53.0%
-- STX conviction 1.32: Ron Wyden (-0.42, 7.7%), Point72 (-0.66, 4.9%); 1M -21.9%, YTD +92.2%
+- CRWD conviction 2.70: Nancy Pelosi (-0.79, 10.6%), Jim Simons (-0.78, 6.0%); 1M -3.1%, YTD +98.0%
+- INTC conviction 1.85: Nancy Pelosi (-0.79, 5.8%), Jim Simons (-0.78, 5.7%); 1M -43.4%, YTD +42.5%
+- STX conviction 1.32: Ron Wyden (-0.42, 7.7%), Point72 (-0.66, 4.9%); 1M -34.7%, YTD +65.8%
 
 ## Consensus forward tracking (return since list date vs SPY)
-- 2026-10-16: equal-weight -3.7%, conviction-weight -5.9%, SPY -5.4%
-- 2026-10-19: equal-weight -4.9%, conviction-weight -7.1%, SPY -5.8%
-- 2026-10-20: equal-weight -4.6%, conviction-weight -7.1%, SPY -6.1%
-- 2026-10-21: equal-weight -4.4%, conviction-weight -6.7%, SPY -6.6%
-- 2026-10-22: equal-weight -5.4%, conviction-weight -7.3%, SPY -5.5%
-- 2026-10-23: equal-weight -2.5%, conviction-weight -4.6%, SPY -5.0%
-- 2026-10-27: equal-weight -4.0%, conviction-weight -5.3%, SPY -6.2%
-- 2026-10-28: equal-weight -4.1%, conviction-weight -6.0%, SPY -6.5%
-- 2026-10-29: equal-weight -4.2%, conviction-weight -5.9%, SPY -6.2%
-- 2026-10-30: equal-weight -0.8%, conviction-weight -3.1%, SPY -4.5%
-- 2026-11-02: equal-weight -0.5%, conviction-weight -2.7%, SPY -4.0%
-- 2026-11-03: equal-weight -3.4%, conviction-weight -4.3%, SPY -4.3%
+- 2026-10-16: equal-weight -8.4%, conviction-weight -10.8%, SPY -8.3%
+- 2026-10-19: equal-weight -9.6%, conviction-weight -12.0%, SPY -8.7%
+- 2026-10-20: equal-weight -9.3%, conviction-weight -12.1%, SPY -9.0%
+- 2026-10-21: equal-weight -8.7%, conviction-weight -11.5%, SPY -9.4%
+- 2026-10-22: equal-weight -9.6%, conviction-weight -12.0%, SPY -8.4%
+- 2026-10-23: equal-weight -6.8%, conviction-weight -9.1%, SPY -7.9%
+- 2026-10-27: equal-weight -8.1%, conviction-weight -9.5%, SPY -9.0%
+- 2026-10-28: equal-weight -8.3%, conviction-weight -10.4%, SPY -9.4%
+- 2026-10-29: equal-weight -8.4%, conviction-weight -10.3%, SPY -9.0%
+- 2026-10-30: equal-weight -5.9%, conviction-weight -8.2%, SPY -7.4%
+- 2026-11-02: equal-weight -5.6%, conviction-weight -7.4%, SPY -6.9%
+- 2026-11-03: equal-weight -8.1%, conviction-weight -8.8%, SPY -7.2%
 Not backtested; information only, not investment advice.
 
 ## Theme / sector tilt (equal-weight per portfolio)
